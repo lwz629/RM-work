@@ -2,9 +2,13 @@
 int main()
 {
     int x,y,s;
-    printf("请输入两个整数（用空格分隔）:");
     scanf("%d %d", &x, &y);
+    if(y==0)
+    {
+        printf("error\n");
+        return 1;
+    }
     s = x / y;
-    printf("商是: %d", s);
+    printf("%d\n", s);
     return 0;
 }
