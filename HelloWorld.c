@@ -4,12 +4,12 @@ int main()
     int x;
     while(1)
     {
-        printf("请输入-1、0或1:");
+        printf("please input 1,0,-1:");
         scanf("%d",&x);
     
         if(x==-1)
         {
-            printf("程序退出\n");
+            printf("exit\n");
             break;
         }
         else if(x==0)
